@@ -330,7 +330,7 @@ if __name__ == "__main__":
     # 加载数据
     print("\n📂 加载数据集...")
     train_df = pd.read_csv('./mnt/train_0328.csv')
-    test_df = pd.read_csv('./mnt/tt.csv')
+    test_df = pd.read_csv('./mnt/test_data.csv')
     
     # 构建或加载向量数据库
     system.build_vector_db(train_df)  # 首次运行会构建并保存，后续自动加载
