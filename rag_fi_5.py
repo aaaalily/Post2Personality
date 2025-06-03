@@ -15,7 +15,7 @@ import os
 BASE_MODEL = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 ADAPTER_PATH = "./results/checkpoint-2170" 
 ENCODER_PATH = "all-MiniLM-L6-v2"
-OPENAI_API_KEY = "sk-3bb672ea85ad4a8f88dd369a15df1769"
+OPENAI_API_KEY = "YOUR_API_KEY"
 OPENAI_BASE_URL = "https://api.deepseek.com"
 
 class HybridMBTISystem:
